@@ -5,7 +5,7 @@ import { SideBar } from "./SideBar";
 
 import { api } from "../services/api";
 
-import '../styles/content.SCSS';
+import '../styles/content.scss';
 
 interface GenreResponseProps{
   id: number;
