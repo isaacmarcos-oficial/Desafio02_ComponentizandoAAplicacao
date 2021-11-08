@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react'
 import { Button } from './Button';
 import { api } from '../services/api';
 
+import '../styles/sidebar.scss'
+
 interface GenreResponseProps {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
